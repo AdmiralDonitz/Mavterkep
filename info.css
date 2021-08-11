@@ -1,0 +1,130 @@
+@-webkit-keyframes fadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}
+
+.info:hover .change {
+    display: block;
+    -webkit-animation: fadeIn 3s;
+    animation: fadeIn 3s;
+} 
+
+.info:hover .szupp {
+    display: block;
+    -webkit-animation: fadeIn 3s;
+    animation: fadeIn 3s;
+  
+} 
+.info:hover .ver {
+    display: block;
+    -webkit-animation: fadeIn 3s;
+    animation: fadeIn 3s;  
+} 
+.info:hover .options {
+    display: block;
+    -webkit-animation: fadeIn 3s;
+    animation: fadeIn 3s;  
+} 
+.extra-info .bold {
+     display: block;
+    -webkit-animation: fadeIn 3s;
+    animation: fadeIn 3s;  
+} 
+.info:hover .bug {
+    display: block;
+    -webkit-animation: fadeIn 3s;
+    animation: fadeIn 3s; 
+} 
+
+
+
+
+.fa-info-circle {
+  z-index:40000;
+  font-size:60px; 
+  color:orange;
+  transition: transform .5s ease-in-out;
+}
+.fa-info-circle:hover {
+transform: rotate(360deg);
+}
+
+.extra-info {
+  display: none;
+  line-height: 12px;
+  font-size: 15px;
+  position: relative;
+   color: yellow;
+  top: 0;
+  left: 50px;
+opacity:0;
+}
+
+.info:hover .extra-info {
+  display: contents;
+}
+
+.info {
+  font-size: 10px;
+  padding-left: 5px;
+  width: 10px;
+  border-radius: 15px;
+}
+
+.info:hover {
+  background-color: blue;
+  padding: 0 0 0 5px;
+  width: 750px;
+  text-align: left !important;
+  transition: all 0.8s ease-in-out;
+}
+
+.absolute  {
+z-index:1997;
+position: absolute;
+}
+
+.extra-info .change {
+font-weight: 900;
+font-size: 30px;
+text-align: center;
+text-decoration-line: underline overline;
+color:black;
+}
+.extra-info .szupp {
+text-align: center;
+line-height:17px;
+font-style: italic;
+font-weight: 500;
+color:violet;
+}
+.extra-info .ver {
+text-align: center;
+font-weight: 900;
+font-size: 20px;
+padding: 10px 5px;
+color:black;
+}
+.extra-info .options {
+line-height:17px;
+font-weight: 500;
+color:aqua;
+}
+.extra-info .bold {
+line-height:17px;
+font-weight: bold;
+color:aqua;
+text-decoration: underline;
+text-decoration-thickness: 4px;
+}
+.extra-info .bug {
+text-align: center;
+line-height:17px;
+font-style: italic;
+font-weight: 1000;
+color:red;
+}
